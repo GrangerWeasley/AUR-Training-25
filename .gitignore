@@ -1,0 +1,37 @@
+# ROS2 build and development files
+build/
+install/
+log/
+*.pyc
+__pycache__/
+
+# Colcon and build artifacts
+**/CMakeCache.txt
+**/CMakeFiles/
+**/Makefile
+**/cmake_install.cmake
+**/CTestTestfile.cmake
+**/*.so
+**/*.a
+**/*.o
+
+# System and IDE files
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+*.egg-info/
+dist/
+build/
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.temp
